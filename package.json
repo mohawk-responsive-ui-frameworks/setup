@@ -1,0 +1,23 @@
+{
+  "name": "@mohawk/1.1-setup",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Setup instructions",
+  "scripts": {
+    "start": "http-server -o public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/mohawk-responsive-design-frameworks/setup.git"
+  },
+  "author": "Matthew Palmer <matthew.palmer1@mohawkcollege.ca>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://gitlab.com/mohawk-responsive-design-frameworks/setup/issues"
+  },
+  "homepage": "https://gitlab.com/mohawk-responsive-design-frameworks/setup#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
